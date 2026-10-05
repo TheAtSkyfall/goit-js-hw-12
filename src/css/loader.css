@@ -1,0 +1,20 @@
+.loader {
+  display: block;
+  width: 48px;
+  height: 48px;
+  margin: 0 auto 32px;
+  border: 5px solid #cfd8ff;
+  border-bottom-color: #4e75ff;
+  border-radius: 50%;
+  animation: loader-rotation 1s linear infinite;
+}
+
+.is-hidden {
+  display: none;
+}
+
+@keyframes loader-rotation {
+  to {
+    transform: rotate(360deg);
+  }
+}
