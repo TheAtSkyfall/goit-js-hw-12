@@ -67,6 +67,29 @@ body {
   margin: 0 auto;
 }
 
+.load-more {
+  display: block;
+  min-width: 125px;
+  height: 40px;
+  margin: 32px auto 0;
+  border: 0;
+  border-radius: 8px;
+  color: #fff;
+  background: #4e75ff;
+  font: inherit;
+  transition: background-color 250ms ease;
+}
+
+.load-more:hover,
+.load-more:focus {
+  background: #6c8cff;
+}
+
+.end-message {
+  margin-top: 32px;
+  text-align: center;
+}
+
 .gallery-item {
   overflow: hidden;
   border: 1px solid #808080;
